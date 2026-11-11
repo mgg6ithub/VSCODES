@@ -1,0 +1,11 @@
+.gitignore
+# Historial de archivos editados
+History/*
+
+# Datos internos de VS Code
+globalStorage/*
+workspaceStorage/*
+
+# Archivos temporales
+*.log
+*.tmp

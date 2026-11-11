@@ -1,0 +1,123 @@
+{ 
+    //Default stuff to check
+    "security.workspace.trust.untrustedFiles": "open",
+      "bracket-pair-colorizer-2.depreciation-notice": false,
+      "editor.guides.bracketPairs": true,
+      "open-in-browser.default": "C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\Google Chrome.lnk",
+      "liveServer.settings.CustomBrowser": "chrome",
+      "liveServer.settings.AdvanceCustomBrowserCmdLine": "",
+      "[python]": {
+        "editor.formatOnType": true
+      },
+      "python.defaultInterpreterPath": "/home/mgg/myenv",
+      "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+      },
+      "editor.unicodeHighlight.allowedCharacters": {
+        "": true
+      },
+      //Theme personalization and colors
+      "workbench.colorTheme": "GitHub Dark Dimmed",
+      "workbench.colorCustomizations": {
+        // "tab.activeBackground": "#00FF00",  // Color de fondo de la pestaña activa
+        // "tab.unfocusedActiveBackground": "#00FF00",  // Color de fondo de la pestaña activa no enfocada
+        // "tab.border": "#00FF00",  // Color de la línea superior de la pestaña activa
+        // "tab.unfocusedActiveBorder": "#00FF00",
+        "tab.activeBorderTop": "#00FF00",  // Color de la línea superior de la pestaña activa
+        "tab.unfocusedActiveBorderTop": "#00FF00",
+        "editorLineNumber.activeForeground": "#00FF00", //099509
+        "editorCursor.foreground": "#00FF00",
+        "editorIndentGuide.activeBackground": "#00FF00", //Indentacion on activa
+        "editorIndentGuide.background": "#f0fdf0", //Indentaciones sin activar
+        // "editorBracketHighlight.foreground1": "#f9faf9", //Brackets
+        // "editor.lineHighlightBackground": "#none",
+        // "editor.selectionBackground": "#00d0ff", // SELECTION CON EL MOUSE
+        // "titleBar.activeBackground": "#263832", //Barra de arriba del todo
+        // "titleBar.activeForeground":"#ffffff", // Letras barra de arriba del todo
+        // "statusBar.background" : "#263832",
+        // "statusBar.noFolderBackground" : "#212121",
+        // "statusBar.debuggingBackground": "#263238" // Barra de abajo del todo al debbugear
+        // "editorGutter.background" : "#0b0f0b" // Color del fondo de los numeros de las lineas
+        // "sideBar.background": "#ffffff" // Color del fondo del explorador de archivos
+      },
+      "editor.tokenColorCustomizations": {
+        "textMateRules": [
+          {
+            "scope": [
+              "variable.other.readwrite",
+              "variable.other"
+            ],
+             "settings": {
+               "foreground": "#FFFFFF" // Cambia este valor al color verde deseado
+             }
+           }
+        ]
+      },
+      "explorer.confirmDelete": false,
+      "hexeditor.columnWidth": 16,
+      "hexeditor.showDecodedText": true,
+      "hexeditor.defaultEndianness": "little",
+      "hexeditor.inspectorType": "aside",
+      "java.debug.settings.showStaticVariables": true,
+      "terminal.integrated.defaultProfile.windows": "Git Bash",
+      "terminal.integrated.profiles.windows": {
+        "PowerShell -NoProfile": {
+        "source": "PowerShell",
+        "args": ["-NoProfile"]
+        },
+        "Command Prompt": {
+          "path": ["C:\\Windows\\System32\\cmd.exe"]
+        }
+      },
+      "explorer.confirmDragAndDrop": false,
+      "indentRainbow.ignoreErrorLanguages": [
+        "markdown"
+      ],
+      "indentRainbow.indicatorStyle": "light",
+      "python.analysis.autoFormatStrings": true,
+      "python.analysis.enablePytestExtra": false,
+      "python.analysis.diagnosticSeverityOverrides": {
+        "reportMissingImports": "none",
+        "reportMissingModuleSource": "none"
+      },
+      "reportMissingImports": false,
+      "editor.fontLigatures": false,
+      "workbench.startupEditor": "none",
+      "workbench.editor.enablePreview": false,
+      "editor.cursorWidth": 2,
+      "java.codeGeneration.insertionLocation": "beforeCursor",
+      "window.titleBarStyle": "custom",
+      "glassit.alpha": 255,
+      "[css]": {
+        "editor.defaultFormatter": "vscode.css-language-features"
+      },
+      "java.debug.settings.showHex": false,
+      "workbench.editor.showIcons": false,
+    //View Settings
+    "security.workspace.trust.emptyWindow": false,
+    "security.workspace.trust.enabled": false,
+    "window.zoomLevel": 1,
+    "editor.fontSize": 13,
+    "editor.fontFamily": "'monospace', monospace",
+    "debug.console.fontSize": 13,
+    "terminal.integrated.fontSize": 12,
+    "extensions.ignoreRecommendations": true,
+    "window.customTitleBarVisibility": "auto",
+    "workbench.layoutControl.enabled": false,
+    "window.commandCenter": false,
+    "liveServer.settings.donotVerifyTags": true,
+    "workbench.activityBar.location": "hidden",
+    "window.menuBarVisibility": "compact",
+    "terminal.integrated.enableMultiLinePasteWarning": false,
+    "editor.renderLineHighlight": "none",
+    "workbench.productIconTheme": "fluent-icons",
+    "workbench.iconTheme": "symbols",
+    "editor.stickyScroll.enabled": true, // Al hacer scroll hacia abajo se ve el principio del archivo
+    // "editor.scrollbar.vertical": "hidden", //Esconder la barra vertical
+    // "editor.scrollbar.horizontal": "show",
+    "editor.guides.highlightActiveIndentation": "always",
+    "liveServer.settings.port": 5050,
+    "liveServer.settings.donotShowInfoMsg": true,
+    "liveServer.settings.root": "/desarrollo",
+    "liveServer.settings.fullReload": true //Esconder la barra horizontal
+  }
